@@ -11,20 +11,14 @@ class BarangSeeder extends Seeder
     {
         Barang::create([
             'kode_barang' => 'BRG001',
-            'nama' => 'BMW M4',
-            'harga' => 3000000000,
+            'nama' => 'Parfum Paris',
+            'harga' => 10000000000,
         ]);
 
         Barang::create([
             'kode_barang' => 'BRG002',
-            'nama' => 'Mercedes-Benz C300',
-            'harga' => 3500000000,
-        ]);
-
-        Barang::create([
-            'kode_barang' => 'BRG003',
-            'nama' => 'Audi A6',
-            'harga' => 800000000,
+            'nama' => 'Jam Tangan Rolex',
+            'harga' => 20000000000,
         ]);
     }
 }
